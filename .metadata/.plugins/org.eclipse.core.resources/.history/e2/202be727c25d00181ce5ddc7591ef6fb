@@ -1,0 +1,153 @@
+
+
+#from Classes.config_util import config_meta
+from Classes.connectionDetails import connection_Details
+from Classes.config_util import config_meta
+import logging
+import pymysql
+from Classes.add_account_dao import account_dao
+from models import user
+
+logging.basicConfig(filename=config_meta.LOG_FILENAME, level=logging.DEBUG)
+my_logger = logging.getLogger(__name__)
+
+
+class user_details_dao:
+
+  database_connection = None
+  dbCursor = None
+  
+#   def logging_Init(self):
+#     self.my_logger = my_logger.getLogger(__name__)
+  
+  def connectToDb(self):
+    try:
+       user_details_dao.database_connection = pymysql.connect(host = '127.0.0.1',port = 3306,user = connection_Details.user,passwd = connection_Details.user,db = connection_Details.databaseName)
+       #pymysql.connect(connection_Details.serverName, connection_Details.user, connection_Details.dbPassword, connection_Details.databaseName)
+       my_logger.info("Connection Established")
+       user_details_dao.dbCursor = user_details_dao.database_connection.cursor()
+    except Exception as e:
+      pass
+      my_logger.info("Connection Declined")
+      my_logger.error ("Connection Error ->", exc_info=True)
+   # sys.exit()
+  
+  def exec_Query_login_validation(self, username,password):
+   #  self.logging_Init()s
+    
+     my_logger.info('---inside user Dao for login---')
+     try: 
+        sql = "select user_id,user_name,account_id from user_info where user_name='%s' and password= '%s'" % (username,password)
+        my_logger.info(sql)
+        user_details_dao.dbCursor.execute(sql)
+        user_details = user_details_dao.dbCursor.fetchone()
+        if (user_details != None):
+       
+            userid = user_details[0]
+            username = user_details[1]
+            accountid = user_details[2]
+            my_logger.info(user_details)
+            return str(userid)+"_"+username+"_"+str(accountid)
+     except Exception as e:
+         print ("Fetching login Detail Causing Error ->", e)		  
+     finally:
+        if(user_details_dao.database_connection != None):
+            user_details_dao.database_connection.close()	
+        if(user_details_dao.dbCursor != None):
+            dbCursor = None                
+     return None
+  
+  def exec_user_register(self, user):
+        accountdao = account_dao(user_details_dao.database_connection,user_details_dao.dbCursor)
+        acountResp = accountdao.register_Account()
+        msg=""
+        if(acountResp!=-1):
+            
+            if not self.check_user_registered_already(user.username)==True:
+                my_logger.info('---inside user Dao for registration---')
+                try: 
+                    sql = "INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id) \
+                           VALUES ('%d','%s', '%s', '%s', '%s', '%s','%s','%s','%s',%d )" % \
+                           (user.userid,user.username,user.firstname,user.lastname,user.dob,user.address,user.password,user.pincode,user.gender,acountResp)
+                    my_logger.info(sql)
+                    user_details_dao.dbCursor.execute(sql)
+                    user_details_dao.database_connection.commit()
+                    my_logger.info(user)
+                    msg = "Passed" 
+                except Exception as e:
+                     user_details_dao.database_connection.rollback()
+                     my_logger.exception("Unable to insert records:-")
+                     msg = "500"		  
+                finally:
+                    if(user_details_dao.database_connection != None):
+                        user_details_dao.database_connection.close()
+                    if(user_details_dao.dbCursor != None):
+                        dbCursor = None
+            else:    	  
+              msg= "User already Registered"
+        else:   
+          msg ="500"
+        return msg
+
+  def password_change_dao(self, username,password):
+   #  self.logging_Init()s
+     msg=""
+     my_logger.info('---inside user Dao for login---')
+     if not self.check_user_registered_already(username)==False:
+         try: 
+            sql = "UPDATE user_info SET password = '%s' WHERE user_name='%s'" % (password,username)
+            my_logger.info(sql)
+            user_details_dao.dbCursor.execute(sql)
+            user_details_dao.database_connection.commit()
+            msg="Passed"
+            
+         except Exception as e:
+             user_details_dao.database_connection.rollback()
+             print ("Update password failed->", e)
+             msg="500"         
+         finally:
+            if(user_details_dao.database_connection != None):
+                user_details_dao.database_connection.close()    
+            if(user_details_dao.dbCursor != None):
+                dbCursor = None                
+     else:
+        msg="User not Registered"
+     return msg
+ 
+  def check_user_registered_already(self, username):
+   #  self.logging_Init()s
+    
+     my_logger.info('---cheking user info---')
+     try: 
+        sql = "SELECT COUNT(*) AS count FROM  user_info where user_name='%s'" % (username)
+        my_logger.info(sql)
+        user_details_dao.dbCursor.execute(sql)
+        user_details = user_details_dao.dbCursor.fetchone()
+        if (user_details != None):
+            count = user_details[0]
+        my_logger.info("count of user_name:-"+user_details)
+        if(count>0):
+           return True
+     except Exception as e:
+         print ("exception while checking username ->", e)          
+#      finally:
+#         if(user_details_dao.database_connection != None):
+#             user_details_dao.database_connection.close()    
+#         if(user_details_dao.dbCursor != None):
+#             dbCursor = None                
+     return False
+ 
+ 
+  def getAccountFullInfo(self,accountId):
+     accountdao = account_dao(user_details_dao.database_connection,user_details_dao.dbCursor)
+     acountResp = accountdao.get_Account_details()
+     if(acountResp!=None):
+         return acountResp;
+#      finally:
+#         if(user_details_dao.database_connection != None):
+#             user_details_dao.database_connection.close()    
+#         if(user_details_dao.dbCursor != None):
+#             dbCursor = None                
+     return None
+  
+       

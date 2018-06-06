@@ -1,0 +1,136 @@
+from Classes.connectionDetails import connection_Details
+from Classes.config_util import config_meta
+import logging
+import pymysql
+from models import transaction
+from Classes.config_util import config_meta
+from Classes.add_account_dao import account_dao
+
+logging.basicConfig(filename=config_meta.LOG_FILENAME, level=logging.DEBUG)
+my_logger = logging.getLogger(__name__)
+
+class transaction_dao_access:
+
+  database_connection = None
+  dbcursor = None
+  
+#   def logging_Init(self):
+#     self.my_logger = my_logger.getLogger(__name__)
+  
+  def connectToDb(self):
+    try:
+       transaction_dao_access.database_connection = pymysql.connect(host = '127.0.0.1',port = 3306,user = connection_Details.user,passwd = connection_Details.user,db = connection_Details.databaseName)
+       #pymysql.connect(connection_Details.serverName, connection_Details.user, connection_Details.dbPassword, connection_Details.databaseName)
+       my_logger.info("Connection Established")
+       transaction_dao_access.dbcursor = transaction_dao_access.database_connection.cursor()
+    except Exception as e:
+      pass
+      my_logger.info("Connection Declined")
+      my_logger.error ("Connection Error ->", exc_info=True)
+   # sys.exit()
+  
+  def do_transaction_update(self,transaction,type):
+            msg=None
+            sql =""
+            my_logger.info('---deposit transaction is being initiated---')
+            try: 
+                if(type=="deposit"):
+                     sql = "INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id) \
+                           VALUES ('%s', %.2f, %d, '%s', '%s',%d)" % (transaction.transaction_type,transaction.amount,config_meta.Session_userAccountId,"self",transaction.transaction_no,transaction.user_id)
+                else:
+                    sql = "INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id) \
+                           VALUES ('%s', %.2f, '%s', '%s', '%s',%d)" % \
+                           (transaction.transaction_type,transaction.amount,transaction.recipient_account_number,transaction.recipient_account_bank,transaction.transaction_no,int(transaction.user_id)) 
+                my_logger.info(sql)
+                transaction_dao_access.dbcursor.execute(sql)
+                transaction_dao_access.database_connection.commit()
+                my_logger.info(transaction)
+                my_logger.info("Transaction details inserted")
+                self.initiate_balance_update(transaction,type)
+                my_logger.info("---------Transaction completed------- ")
+                msg = "Passed" 
+            except Exception as e:
+                 transaction_dao_access.database_connection.rollback()
+                 my_logger.exception("Unable to insert records:-")
+                 msg = "500"          
+            finally:
+                if(transaction_dao_access.database_connection != None):
+                    transaction_dao_access.database_connection.close()
+                if(transaction_dao_access.dbcursor != None):
+                    transaction_dao_access.dbcursor = None
+                    
+#       else:
+#            my_logger.info('---fund transfer transaction is being initiated---')
+            return msg    
+    
+    
+  def initiate_balance_update(self,transaction,type):  
+        amt=0.0
+        accountdao = account_dao( transaction_dao_access.database_connection,transaction_dao_access.dbcursor)
+        sql=""      
+        
+        
+        msg = accountdao.get_Account_details(config_meta.Session_userAccountId)
+        if(msg!=None and msg!="500"):
+            msgarr = msg.spilt(",")
+            msg= msg[4]
+            amt = transaction.amount + float(msg) 
+            if(type=="deposit"):
+                sql = "UPDATE account_info SET current_balance = %.2f where account_id =%d" % \
+                      (amt,config_meta.Session_userAccountId)  
+            else:
+                sql = "UPDATE account_info SET current_balance = %.2f where account_id =%d" % \
+                      (amt,transaction.recipient_account_number)  
+            transaction_dao_access.dbcursor.execute(sql)
+            transaction_dao_access.database_connection.commit() 
+        sql=""
+        amt=0.0   
+        if(type=="transfer"):
+            msg = accountdao.get_Account_details(transaction.recipient_account_number)
+            if(msg!=None and msg!="500"):   
+                  amt = float(msg) - transaction.amount
+                  res=accountdao.get_Account_details(transaction.recipient_account_number)
+                  if(res!=None and res!="500"):
+                      receipent_amt=receipent_amt + float(res)
+                  sql = "UPDATE account_info SET current_balance = %f where account_id =%d" % \
+                         (res,transaction.recipient_account_number)
+                  my_logger.info(sql)
+                  transaction_dao_access.dbcursor.execute(sql)
+                  transaction_dao_access.database_connection.commit() 
+                     
+                
+                
+               
+        my_logger.info("---balance updation completed --")
+        
+        
+  def get_all_transaction(self,user_id): 
+     transactionList=None
+     my_logger.info('---processing all transaction related info---')
+     try: 
+        sql = "SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=%d" % (user_id)
+        my_logger.info(sql)
+        transaction_dao_access.dbcursor.execute(sql)
+        results = transaction_dao_access.dbcursor.fetchall()
+        for row in results:
+            if (row != None):
+               transaction_type = row[0]
+               amount = row[1]
+               recipient_account_number =row[3]
+               recipient_account_bank = row[4]
+               transaction_no = row[5]
+               msg = transaction_no +"@"+ transaction_type+"@"+recipient_account_number + "@" + recipient_account_bank +"@"+amount
+               transactionList.append( msg )
+               msg=""
+        
+        return transactionList
+     except Exception as e:
+         print ("exception while checking username ->", e)          
+     finally:
+       if(transaction_dao_access.database_connection != None):
+           transaction_dao_access.database_connection.close()    
+       if(transaction_dao_access.dbcursor != None):
+           transaction_dao_access.dbcursor = None                
+     return transactionList
+ 
+                                

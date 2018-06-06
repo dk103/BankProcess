@@ -1,0 +1,128 @@
+#!C:\Users\M1030512\AppData\Local\Programs\Python\Python36\python.exe
+
+import cgi, cgitb
+import sys
+import logging
+import hashlib
+import time, os
+
+from Classes import config_meta
+from Classes import payee_services
+from models import beneficiaries_details
+from http import cookies
+from models import transactions
+
+
+logging.basicConfig(filename=config_meta.LOG_FILENAME, level=logging.DEBUG)
+
+my_logger = logging.getLogger('payee module')
+my_logger.info('---processing  payee info---')
+
+frmEmp = cgi.FieldStorage()
+
+querytype = frmEmp.getvalue("optype")
+uid=frmEmp.getvalue("sid")
+
+
+cookie = cookies.SimpleCookie()
+cookie_string = os.environ.get('HTTP_COOKIE')
+#cookie_string ="accountId=40"
+ 
+if(cookie_string!=None):
+    cookie.load(cookie_string)
+    config_meta.Session_userAccountId = cookie['accountId'].value
+
+    
+    
+
+
+
+def formTableDataContent(res):
+    msg=""
+    for rowData in res:
+        value = rowData.split("@")
+        msg=msg+"<tr><td>"+value[0]+"</td>"+"<td>"+value[1]+"</td>"+"<td>"+value[2]+"</td>"+"<td>"+value[3]+"</td>"+"<td>"+value[4]+"</td></tr>"
+        value=None
+    return msg
+
+
+
+if(querytype=="add"  or querytype=="remove"):
+   payee_account_no = frmEmp.getvalue("payee_account_no")
+   payee_account_bank=  frmEmp.getvalue("payee_account_bank")
+if(querytype=="add"):
+   payee_account_name= frmEmp.getvalue("payee_account_name")
+
+
+
+
+my_logger.info('---processing  payee info---')
+#
+
+
+payee_services = payee_services()
+if(querytype=="add"):
+    my_logger.info('---adding payee info---')
+    payee = beneficiaries_details(payee_account_no,payee_account_name,payee_account_bank,uid)
+    #spayee = beneficiaries_details("IND-0000000000","sample","Marathalli","780")
+    res = payee_services.add_payee(payee)
+    my_logger.info("db response:-"+str(res))
+    if(res == "passed"):
+        my_logger.debug('---payee added successfully')
+        my_logger.debug('---user successfuly  inserted request success')
+        print ("Content-Type: text/html\r\n")
+        print ("<h3><span style='color:green' class='glyphicon glyphicon-thumbs-up'></span> Payee added Successfully..</h3><br>")
+    
+    elif(res=="500"):
+      my_logger.debug('--exception occured')
+      print ("Content-Type: text/html\r\n")   
+      
+      print ("<p><span style='color:red' class='glyphicon glyphicon-thumbs-down'>{}</span></p><br>".format('Internal error occured'))     
+    else:
+      my_logger.debug('--Account already present')
+      print ("Content-Type: text/html\r\n")
+      print ("<p><span style='color:red' class='glyphicon glyphicon-thumbs-down'>{}</span></p><br>".format(res))    
+        
+
+  
+elif(querytype=="remove"): 
+    my_logger.info('---removing payee info---')
+    #payee = beneficiaries_details("IND-0000000000","sample","Marathalli","780")
+    payee = beneficiaries_details(payee_account_no,None,payee_account_bank,uid)
+    res = payee_services.remove_payee(payee)
+     
+    my_logger.info("db response:-"+str(res))
+    if(res == "Passed"):
+      my_logger.debug('---payee removed success')
+      print ("Content-Type: text/html\r\n")
+      print ("<h3><span style='color:green' class='glyphicon glyphicon-thumbs-up'></span> Payee removed Successfully..<a href='./index.html'><span style='color:yellow'> plz Login </span></a></h3><br>")
+    
+    elif(res=="500"):
+      my_logger.debug('---Exception occured--')
+      print ("Content-Type: text/html\r\n")
+      print ("<p><span style='color:red' class='glyphicon glyphicon-thumbs-down'>{}</span></p><br>".format('Internal error occured'))    
+    else:
+      my_logger.debug('---Account Already deleted')
+      print ("Content-Type: text/html\r\n")
+      print ("<p><span style='color:red' class='glyphicon glyphicon-thumbs-down'>{}</span></p><br>".format(res))    
+        
+elif(querytype=="BENIFICIARIES"):
+    my_logger.info('---get All payee info---')
+    payeeList = payee_services.fetchPayeeList(user_id)
+     
+    if(res!=None):
+                  
+              my_logger.info('---fetched all details for BENIFICIARIES ---')
+              print ("Content-Type: text/html\r\n")
+              if(len(res)>0):
+                 htmlContent="<div class='card'><div class='card-header bg-info d-flex justify-content-center'><Strong>VIEW All PAYEE LIST:</Strong></div><div class='card bg-light '><div class='card-body'><span style='color: blue' id='err'/><br><div class='col-xs-12'><h2>Payee Info:</h2><table id='accTable'  ><tr><th>Transaction No:</th><th>Transaction Type:</th><th>Recipient Account Number:</th><th>Recipient Account Bank:</th><th>Amount:</th></tr>{TDATA}    </table></div></div></div></div>"
+                 msg = formTableDataContent(res)
+                 if(msg!=None):
+                    
+                    htmlContent = htmlContent.replace("{TDATA}", msg)
+                    print(htmlContent)
+                    
+              else:
+                  htmlContent="<div class='card'><div class='card-header bg-info d-flex justify-content-center'><Strong>VIEW All PAYEE LIST:</Strong></div><div class='card bg-light'><div class='card-body'><h3><span style='color:red' class='glyphicon glyphicon-remove-circle'>&nbsp;Sorry....Not Able to List All Payee...</span></h3><br><div class='col-xs-12' ><img class='img-fluid  w-100 img-responsive' src='../images/error404.png' ></div></div></div></div>"
+                  print(htmlContent)
+                  

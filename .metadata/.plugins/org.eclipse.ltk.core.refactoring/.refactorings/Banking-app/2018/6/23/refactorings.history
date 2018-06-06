@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Banking-app/src/util/sql_Scripts&apos; to &apos;sql_Scripts.sql&apos;" description="Rename resource &apos;sql_Scripts&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/util/sql_Scripts" name="sql_Scripts.sql" stamp="1528262270475" updateReferences="true"/>
+</session>

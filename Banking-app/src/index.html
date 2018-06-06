@@ -1,0 +1,98 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>INDGO BANK</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="layout/bootstrap.min.css" type="text/css">
+<link href="layout/customCSS.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript">
+// Add active class to the current button (highlight it)
+var username;
+var password;
+
+window.onload = function(){  
+  var header=document.getElementById("nav-bar");
+  var listItem=header.getElementsByClassName("nav-bar-list");
+  for (var i = 0; i < listItem.length; i++) {
+    listItem[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  }
+  
+   function checkValidation(){
+      var resultValidator =true
+      if(validationRes()==true){
+    	  document.getElementById('err').innerText="";
+        var xhttp = new XMLHttpRequest();
+        var params = 'username='+username+'&amp;password='+password
+        xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+             document.getElementById("err").innerHTML = this.responseText;
+                }
+               };
+       xhttp.open("POST", "user_login.py", true);
+       xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+       xhttp.send(params);
+       }
+	  } 
+  function validationRes(){
+  
+	  username=  document.getElementsByName("userid")[0].value;
+	   password = document.getElementsByName("pswrd")[0].value;
+   var msg;
+   if (username==null||password==null||username.trim()=="" || password.trim()==""){ 
+       msg= "Please Fill All the Details !..";
+       document.getElementById('err').innerText=msg; 
+	   return false;
+       }
+    return true;  
+   
+   }
+  
+</script>
+
+</head>
+<body id='bg'>
+
+<ul id="nav-bar">
+  <li><a class="nav-bar-list active" href="index.html">Login</a></li>
+  <li><a class="nav-bar-list" href="register.html">Register</a></li>
+  <li><a class="nav-bar-list" href="#contact">Contact</a></li>
+  <div class="nav-bar-right">
+    <a href="forgetpassword.html">ForgetPassword</a>
+  </div>
+</ul>
+
+<div class='table'>
+      
+    <div class='cell'>
+        <h1 align="center" style="color:#641E16;">Welcome to INDGO Bank</h1>
+      
+   
+        <form name="login" method="post" >
+		    <span style="color:blue" id="err"></span><br>
+            <label>Username <i class="glyphicon glyphicon-user" style="font-size:24px;"></i>:</label>
+            <input type="text" name="userid" placeholder="Email ID" pattern="/^([w-.]+@([w-]+.)+[w-]{2,4})?$/" title="xyz@something.com" required />
+            <br />
+            <label>Password <i class="glyphicon glyphicon-lock" style="font-size:24px;"></i>:</label>
+            <input type="password" name="pswrd"  pattern="[M]\d{7}" title="Starting with M followed by 7 digit" required />
+            <br /><br/>
+          
+			<button type="submit" form="login" value="Submit" class="btn-submit" onclick ="checkValidation()">Submit</button>
+            <button type="reset" value="cancel" class="btn-reset">Cancel</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+

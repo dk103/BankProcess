@@ -1,0 +1,77 @@
+import logging
+import pymysql
+from Classes.config_util import  config_meta
+import time
+import random
+
+logging.basicConfig(filename=config_meta.LOG_FILENAME, level=logging.DEBUG)
+my_logger = logging.getLogger(__name__)
+
+class account_dao(object):
+    branchList =['R.R.Nagr','whitefiled','Marathalli']
+    
+    
+    def __init__(self,database_connection,dbCursor):
+        self.accountid=random.randint(1,100)
+        self.database_connection= database_connection
+        my_logger.info('---initializing Account info for user---')
+        self.dbCursor = dbCursor
+        self.accountno='IND-'+str(int(time.time()))
+        self.accountBank=random.choice(account_dao.branchList)
+        self.currentBalance=0.0
+        self.Bank_name="IndiGo Bank"
+        self.accountType='Savings'
+        
+        
+        
+        
+    def  register_Account(self):
+      my_logger.info('---adding Account info for user---')
+      try: 
+           sql = "INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type) \
+                  VALUES (%d,'%s', %.2f, '%s', '%s', '%s')" % \
+                  (self.accountid,self.accountno,self.currentBalance,self.Bank_name,self.accountBank,self.accountType)
+           my_logger.info(sql)
+           self.dbCursor.execute(sql)
+           self.database_connection.commit()
+           my_logger.info(self)
+           return self.accountid 
+      except Exception as e:
+           self.database_connection.rollback()
+           my_logger.exception("Unable to insert account records:-")          
+#       finally:
+#            if(self.database_connection != None):
+#               self.database_connection.close()
+#            if(self.dbCursor != None):
+#               self.dbCursor = None
+                  
+      return -1
+  
+    def get_Account_details(self,userAccountId):
+     msg= None  
+     my_logger.info('---fecting account  info---')
+     try: 
+        sql = "SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=%d" % (userAccountId)
+        my_logger.info(sql)
+        self.dbCursor.execute(sql)
+        account_details = self.dbCursor.fetchone()
+        if (account_details != None):
+            account_no = account_details[0]
+            current_balance=account_details[1]
+            bank_name=account_details[2]
+            bank_branch=account_details[3]
+            account_type=account_details[4]
+            msg=account_no+","+current_balance+","+bank_name+","+bank_branch+","+account_type
+            return msg
+
+         
+     except Exception as e:
+         print ("exception while fecting account->", e)
+         msg="500"          
+#      finally:
+#         if(user_details_dao.database_connection != None):
+#             user_details_dao.database_connection.close()    
+#         if(user_details_dao.dbCursor != None):
+#             dbCursor = None                
+     return msg
+    

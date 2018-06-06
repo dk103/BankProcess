@@ -1,0 +1,39 @@
+from os.path import abspath, exists
+import shelve
+from pathlib import Path
+
+class config_meta:
+    LOG_FILENAME = 'example.log'
+    Session_userName = None
+    Session_userAccountId = None
+    errorPage = "errorPage.html"
+    
+    def update_error_page_template(content):
+        str=""
+      
+        f_path = abspath(config_meta.errorPage)
+        fileObject = open(f_path, "r")
+        str=fileObject.read()
+        str = str.replace("{TDATA}",content )
+      
+        fileObject.close()
+        
+        fileObject = open(f_path, "w+")
+        fileObject.write(str)
+        fileObject.close()
+        
+    
+    def updateAccountValue(self,accId):
+        home = str(Path.home())
+        session_dir = home + '\\tmp\\.session'
+        directory = os.path.dirname('%s\\sess_%s' % (session_dir, accId))
+
+        try:
+            os.stat(directory)
+        except:
+            os.mkdir(directory)
+            
+        data = shelve.open (
+            '%s/sess_%s' % (session_dir, sid),flag='c',writeback=True)
+        
+        data['accountId'] = accId

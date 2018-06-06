@@ -1,0 +1,18 @@
+import random
+class account_info:
+
+  def __init__(self, account_no, current_balance, bank_name, bank_branch, account_type, account_id=None):
+       
+       self.account_id = account_id
+       self.account_no = account_no
+       self.current_balance = 1.00*random.randint(2000,8000)
+       self.bank_name = bank_name
+       self.bank_branch = bank_branch
+       self.account_type = account_type
+       
+  def display_account(self):
+    print ("account_no : ", self.account_no)
+    
+  def __str__(self):
+    return "account_id :-{}  account_no:-{}".format(self.account_id,self.account_no) 
+     

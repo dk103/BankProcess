@@ -1,0 +1,1810 @@
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:select * from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:user_login:---processing  user login---
+INFO:user_login:db response:-False
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(0, 'mishra91@gmail.com')
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(0, 'mishra91@gmail.com')
+INFO:user_login:db response:-True
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-False
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(0, 'mishra91@gmail.com')
+INFO:user_login:db response:-0_mishra91@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(0, 'mishra91@gmail.com')
+INFO:user_login:db response:-0_mishra91@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(0, 'mishra91@gmail.com')
+INFO:user_login:db response:-0_mishra91@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(0, 'mishra91@gmail.com')
+INFO:user_login:db response:-0_mishra91@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(0, 'mishra91@gmail.com')
+INFO:user_login:db response:-0_mishra91@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(0, 'mishra91@gmail.com')
+INFO:user_login:db response:-0_mishra91@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra91@gmail.com' and password= 'M1030513'
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (82,'IND-1526843374', 0.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000001B7DAEB8128>
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                        VALUES ('mishra92@gmail.com', 'Dheeraj', 'Mishra', '2018-05-08', '63/15 Dumdum Road','M1030512','700074','male',82 )
+ERROR:Classes.user_details_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\user_details_dao.py", line 71, in exec_user_register
+    user_details_dao.dbCursor.execute(sql)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1136, "Column count doesn't match value count at row 1")
+DEBUG:__main__:---Registration of user failed
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (51,'IND-1526844411', 0.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x00000220B3F46240>
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                        VALUES ('mishra92@gmail.com', 'Dheeraj', 'mISHRA', '2018-05-07', '63/15 Dumdum Road','M1030512','700074','male',51 )
+ERROR:Classes.user_details_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\user_details_dao.py", line 71, in exec_user_register
+    user_details_dao.dbCursor.execute(sql)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1136, "Column count doesn't match value count at row 1")
+DEBUG:__main__:---Registration of user failed
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (30,'IND-1526848734', 0.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000001FB5B2FA128>
+DEBUG:__main__:---Registration of user failed
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (41,'IND-1526849108', 0.00, 'IndiGo Bank', 'whitefiled', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000001E54D2B6780>
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (18,'IND-1526849193', 0.00, 'IndiGo Bank', 'whitefiled', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x00000273FF3197B8>
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+ERROR:Classes.user_details_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\user_details_dao.py", line 70, in exec_user_register
+    (user.user_id,user.username,user.firstname,user.lastname,user.dob,user.address,user.password,user.pincode,user.gender,acountResp)
+AttributeError: 'user' object has no attribute 'user_id'
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (81,'IND-1526849315', 0.00, 'IndiGo Bank', 'whitefiled', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x0000021B81FFA518>
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+ERROR:Classes.user_details_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\user_details_dao.py", line 70, in exec_user_register
+    (user.user_id,user.username,user.firstname,user.lastname,user.dob,user.address,user.password,user.pincode,user.gender,acountResp)
+AttributeError: 'user' object has no attribute 'user_id'
+DEBUG:__main__:---Registration of user failed
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (93,'IND-1526849343', 0.00, 'IndiGo Bank', 'Marathalli', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x0000017E64915780>
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+ERROR:Classes.user_details_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\user_details_dao.py", line 70, in exec_user_register
+    (user.user_id,user.username,user.firstname,user.lastname,user.dob,user.address,user.password,user.pincode,user.gender,acountResp)
+AttributeError: 'user' object has no attribute 'user_id'
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (17,'IND-1526849507', 0.00, 'IndiGo Bank', 'Marathalli', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000002B448CFA518>
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('836','abc@zy.com', 'sam', 'trik', '11-july-1992', '12345','M103456','1111123','M',17 )
+INFO:Classes.user_details_dao:user_name :-abc@zy.com  user_id:-836
+DEBUG:__main__:---user successfuly  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (40,'IND-1526849561', 0.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000001FE11378240>
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('780','mishra92@gmail.com', 'Dheeraj', 'Mishra', '2018-05-02', '63/15 Dumdum Road','M1030512','700074','male',40 )
+INFO:Classes.user_details_dao:user_name :-mishra92@gmail.com  user_id:-780
+DEBUG:__main__:---user successfuly  inserted request success
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra92@gmail.com' and password= 'M1030512'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com')
+INFO:user_login:db response:-780_mishra92@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra92@gmail.com' and password= 'M1030512'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com')
+INFO:user_login:db response:-780_mishra92@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='None' and password= 'None'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra92@gmail.com' and password= 'M1030512'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com')
+INFO:user_login:db response:-780_mishra92@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra92@gmail.com' and password= 'M1030512'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com')
+INFO:user_login:db response:-780_mishra92@gmail.com
+DEBUG:user_login:---user logged id in successfully
+INFO:user_Password Change:---processing  user password change---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:user_Password Change:db response:-None
+INFO:user_Password Change:---Password updation  Failed
+INFO:user_Password Change:---processing  user password change---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:user_Password Change:db response:-None
+INFO:user_Password Change:---Password updation  Failed
+INFO:user_Password Change:---processing  user password change---
+INFO:Classes.user_Detail_services:--- password change service---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:UPDATE user_info SET password = 'M1030513' WHERE user_name='mishra92@gmail.com'
+INFO:user_Password Change:db response:-Passed
+INFO:user_Password Change:---user password updated successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Declined
+ERROR:payee__Dao:Connection Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 20, in connectToDb
+    payee_dao_access.database_connection = pymysql.connect(host = '127.0.0.1',port = 3306,user = connection_Details.user,passwd = connection_Details.user,db = connection_Details.databaseName)
+NameError: name 'connection_Details' is not defined
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Declined
+ERROR:payee__Dao:Connection Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 20, in connectToDb
+    payee_dao_access.database_connection = pymysql.connect(host = '127.0.0.1',port = 3306,user = connection_Details.user,passwd = connection_Details.user,db = connection_Details.databaseName)
+NameError: name 'connection_Details' is not defined
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking user info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking user info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking user info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,payee.user_id)
+TypeError: %d format: a number is required, not str
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,payee.user_id)
+TypeError: %d format: a number is required, not str
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT COUNT(*) AS count FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,payee.user_id)
+TypeError: %d format: a number is required, not str
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,payee.user_id)
+TypeError: %d format: a number is required, not str
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,payee.user_id)
+TypeError: %d format: a number is required, not str
+INFO:payee module:db response:--1
+DEBUG:payee module:---payee added successfully
+DEBUG:payee module:---user successfuly  inserted request success
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,payee.user_id)
+TypeError: %d format: a number is required, not str
+INFO:payee module:db response:--1
+DEBUG:payee module:---payee added successfully
+DEBUG:payee module:---user successfuly  inserted request success
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+TypeError: %d format: a number is required, not str
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:INSERT INTO beneficiaries_details (beneficiaries_id,beneficiaries_account_number,beneficiaries_bank,beneficiaries_account_type,beneficiaries_account_holder,user_id)                       VALUES (170,'IND-0000000000', 'Marathalli', 'Savings A/c', 'sample', 780)
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:INSERT INTO beneficiaries_details (beneficiaries_id,beneficiaries_account_number,beneficiaries_bank,beneficiaries_account_type,beneficiaries_account_holder,user_id)                       VALUES (146,'IND-0000000000', 'Marathalli', 'Savings A/c', 'sample', 780)
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:INSERT INTO beneficiaries_details (beneficiaries_id,beneficiaries_account_number,beneficiaries_bank,beneficiaries_account_type,beneficiaries_account_holder,user_id)                       VALUES (147,'IND-0000000000', 'Marathalli', 'Savings A/c', 'sample', 780)
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:INSERT INTO beneficiaries_details (beneficiaries_id,beneficiaries_account_number,beneficiaries_bank,beneficiaries_account_type,beneficiaries_account_holder,user_id)                       VALUES (166,'IND-0000000000', 'Marathalli', 'Savings A/c', 'sample', 780)
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:INSERT INTO beneficiaries_details (beneficiaries_id,beneficiaries_account_number,beneficiaries_bank,beneficiaries_account_type,beneficiaries_account_holder,user_id)                       VALUES (162,'IND-0000000000', 'Marathalli', 'Savings A/c', 'sample', 780)
+INFO:payee__Dao:<Classes.payee_dao.payee_dao_access object at 0x0000016A474CA048>
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:INSERT INTO beneficiaries_details (beneficiaries_id,beneficiaries_account_number,beneficiaries_bank,beneficiaries_account_type,beneficiaries_account_holder,user_id)                       VALUES (155,'IND-0000000000', 'Marathalli', 'Savings A/c', 'sample', 780)
+INFO:payee__Dao:<Classes.payee_dao.payee_dao_access object at 0x000002108507A048>
+INFO:payee module:db response:-155
+DEBUG:payee module:---payee added successfully
+DEBUG:payee module:---user successfuly  inserted request success
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:count of payee_details:-('sample',)
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:count of payee_details:-('sample',)
+INFO:payee module:db response:-Already Account Exists
+DEBUG:payee module:--Account already present
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:count of payee_details:-('sample',)
+INFO:payee module:db response:-Already Account Exists
+DEBUG:payee module:--Account already present
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:count of payee_details:-('sample',)
+INFO:payee module:db response:-Already Account Exists
+DEBUG:payee module:--Account already present
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---removing payee info---
+INFO:payee_service:--- inside remove_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---removing beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee__Dao:count of payee_details:-('sample',)
+INFO:payee__Dao:delete from beneficiaries_details WHERE beneficiaries_account_number='IND-0000000000'
+INFO:payee module:db response:-Passed
+DEBUG:payee module:---payee removed success
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---removing payee info---
+INFO:payee_service:--- inside remove_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---removing beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-0000000000'
+INFO:payee module:db response:-Account Not Exixts
+DEBUG:payee module:---Account Already deleted
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030512'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M11030513'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-1526849507'
+ERROR:payee__Dao:db while adding payee ac Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+INFO:payee module:db response:-Already Account Exists
+DEBUG:payee module:--Account already present
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-1526849507'
+ERROR:payee__Dao:db while adding payee ac Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+INFO:payee module:db response:-Already Account Exists
+DEBUG:payee module:--Account already present
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-1526849507'
+ERROR:payee__Dao:db while adding payee ac Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+INFO:payee module:db response:-Already Account Exists
+DEBUG:payee module:--Account already present
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-1526849507'
+ERROR:payee__Dao:db while adding payee ac Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+INFO:payee module:db response:-Already Account Exists
+DEBUG:payee module:--Account already present
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--null
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-1526849507'
+ERROR:payee__Dao:db while adding payee ac Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+INFO:payee module:db response:-500
+DEBUG:payee module:--exception occured
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--null
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-1526849507'
+ERROR:payee__Dao:db while adding payee ac Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+INFO:payee module:db response:-500
+DEBUG:payee module:--exception occured
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--null
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-1526849507'
+ERROR:payee__Dao:db while adding payee ac Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+ERROR:payee__Dao:Unable to insert account records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\payee_dao.py", line 38, in beneficiariesAccountInclusion
+    (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+ValueError: invalid literal for int() with base 10: 'null'
+INFO:payee module:db response:-500
+DEBUG:payee module:--exception occured
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--780
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-1526849507'
+INFO:payee__Dao:INSERT INTO beneficiaries_details (beneficiaries_id,beneficiaries_account_number,beneficiaries_bank,beneficiaries_account_type,beneficiaries_account_holder,user_id)                       VALUES (153,'IND-1526849507', 'DWdwSD', 'Savings A/c', 'SAM2311', 780)
+INFO:payee__Dao:<Classes.payee_dao.payee_dao_access object at 0x0000016BF67F8438>
+INFO:payee module:db response:-passed
+DEBUG:payee module:---payee added successfully
+DEBUG:payee module:---user successfuly  inserted request success
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.user_details_dao:---fecting account  info---
+DEBUG:payee module:---Fetched account details successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.user_details_dao:---fecting account  info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.user_details_dao:---fecting account  info---
+INFO:Classes.user_details_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=780
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=780
+DEBUG:payee module:---Fetched account details Failed
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=780
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+DEBUG:payee module:---Fetched account details Failed
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=780
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=17
+DEBUG:payee module:---Fetched account details Failed
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=17
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=17
+DEBUG:payee module:---Fetched account details successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--1
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=17
+DEBUG:payee module:---Fetched account details successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--780
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+DEBUG:payee module:---Fetched account details Failed
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--null
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+DEBUG:payee module:---Fetched account details Failed
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--null
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+DEBUG:payee module:---Fetched account details Failed
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--null
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+DEBUG:payee module:---Fetched account details Failed
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--null
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+DEBUG:payee module:---Fetched account details Failed
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---transaction Failed---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 400.000000, 40, 'self', '1527136971',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+ERROR:Classes.transation_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\transation_dao.py", line 49, in do_transaction_update
+    initiate_balance_update(transaction,type)
+NameError: name 'initiate_balance_update' is not defined
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 400.000000, 40, 'self', '1527137031',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 400.000000, 40, 'self', '1527137213',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 400.000000, 40, 'self', '1527137373',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 400.00, 40, 'self', '1527137897',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 400.00, 40, 'self', '1527138115',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 400.00, 40, 'self', '1527138201',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 400.00, 40, 'self', '1527138255',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 400.00, 40, 'self', '1527138317',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:Classes.transation_dao:---balance updation completed --
+INFO:Classes.transation_dao:---------Transaction completed------- 
+INFO:transaction module:---sending transaction details---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 400.00, 'IND', 'self', '1527138439',780)
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Declined
+ERROR:Classes.add_account_dao:Connection Error ->
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\add_account_dao.py", line 22, in connectToDb
+    self.database_connection = pymysql.connect(host = '127.0.0.1',port = 3306,user = connection_Details.user,passwd = connection_Details.user,db = connection_Details.databaseName)
+NameError: name 'connection_Details' is not defined
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 300.00, self, 'self', '1527144327',780)
+ERROR:Classes.transation_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\transation_dao.py", line 46, in do_transaction_update
+    transaction_dao_access.dbcursor.execute(sql)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'self' in 'field list'")
+INFO:transaction module:---transaction Failed---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:Connection Declined
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 300.00, self, 'self', '1527144764',780)
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+ERROR:Classes.transation_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\transation_dao.py", line 40, in do_transaction_update
+    VALUES ('%s', %.2f, %s, '%s', '%s',%d)" % (transaction.transaction_type,transaction.amount,transaction.recipient_account_bank,transaction.transaction_no,transaction.user_id)
+TypeError: not enough arguments for format string
+INFO:transaction module:---transaction Failed---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 300.00, IND-1526849561, 'self', '1527145182',780)
+ERROR:Classes.transation_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\transation_dao.py", line 46, in do_transaction_update
+    transaction_dao_access.dbcursor.execute(sql)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql-0.8.1-py3.6.egg\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'IND' in 'field list'")
+INFO:transaction module:---transaction Failed---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 300.00, 'IND-1526849561', 'self', '1527145222',780)
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 300.00, 'IND-1526849561', 'self', '1527145510',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:Classes.transation_dao:---balance updation completed --
+INFO:Classes.transation_dao:---------Transaction completed------- 
+INFO:transaction module:---sending transaction details---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 300.00, 'IND-1526849193', 'self', '1527146884',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 300.00, 'IND-1526849561', 'self', '1527151361',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_no='IND-1526849561'
+INFO:Classes.transation_dao:---balance updation completed --
+INFO:Classes.transation_dao:---------Transaction completed------- 
+INFO:transaction module:---sending transaction details---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 300.00, 'IND-1526849193', 'self', '1527151409',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_no='IND-1526849193'
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 300.00, 'IND-1526849193', 'self', '1527151760',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_no='IND-1526849193'
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+ERROR:Classes.transation_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\transation_dao.py", line 50, in do_transaction_update
+    self.initiate_balance_update(transaction,type)
+  File "D:\PythonProc\Banking-app\src\Classes\transation_dao.py", line 100, in initiate_balance_update
+    (res,config_meta.Session_userAccountId)
+NameError: name 'res' is not defined
+INFO:transaction module:---transaction Failed---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 300.00, 'IND-1526849193', 'self', '1527151796',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_no='IND-1526849193'
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 300.00, 'IND-1526849193', 'self', '1527151885',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_no='IND-1526849193'
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:Classes.transation_dao:UPDATE account_info SET current_balance = 700.000000 where account_id =40
+INFO:Classes.transation_dao:---balance updation completed --
+INFO:Classes.transation_dao:---------Transaction completed------- 
+INFO:transaction module:---sending transaction details---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 300.00, 'IND-152684000', 'self', '1527151947',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_no='IND-152684000'
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:Classes.transation_dao:UPDATE account_info SET current_balance = 400.000000 where account_id =40
+INFO:Classes.transation_dao:---balance updation completed --
+INFO:Classes.transation_dao:---------Transaction completed------- 
+INFO:transaction module:---sending transaction details---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---session id--780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---fetched all details for transaction ---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--780
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--null
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--null
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---session id--780
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---

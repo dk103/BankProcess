@@ -1,0 +1,69 @@
+#!C:\Users\M1030512\AppData\Local\Programs\Python\Python36\python.exe
+
+import cgi, cgitb
+
+import sys
+import logging
+import hashlib
+import time
+from Classes import user_Details_services
+from Classes import config_meta
+from Classes import payee_services
+from models import beneficiaries_details
+import cgi
+
+logging.basicConfig(filename=config_meta.LOG_FILENAME, level=logging.DEBUG)
+
+my_logger = logging.getLogger('payee module')
+my_logger.info('---processing  payee info---')
+
+frmEmp = cgi.FieldStorage()
+
+
+querytype = frmEmp.getvalue("optype")
+uid=frmEmp.getvalue("sid")
+my_logger.info('---session id--'+uid)
+
+user_Details_services = user_Details_services()
+res = user_Details_services.showAccountDetails(17)
+
+#res = user_Details_services.showAccountDetails(config_meta.Session_userAccountId)
+
+if(res != "500" and res!=None): 
+  list = res.split(",")
+  my_logger.debug('---Fetched account details successfully')
+  print ("Content-Type: text/html\r\n")
+  print ("    <div class='well text-center'>\
+                        <center>\
+                            <Strong> Account Details :</Strong>\
+                        </center>\
+                   </div>\
+                  <div class='panel panel-info col-sm-offset-0'>\
+                    <div class='panel-body panel'>    \
+                    <span style='color: blue' id='err'></span><br>\
+                       <div class='col-xs-12'>\
+                         <table id='accTable' >\
+                                    <tr>\
+                                       <th>Account No</th>\
+                                       <th>Bank Name</th>\
+                                       <th>Bank Branch</th>\
+                                       <th>Account Type</th>\
+                                       <th>Current Balance</th>\
+                                    </tr>\
+                           <tr>\
+                             <td>{}</td>\
+                              <td>{}</td>\
+                             <td>{}</td>\
+                             <td>{}</td>\
+                             <td>{}</td>\
+                           </tr>\
+                           </table>\
+                         <input type='hidden' id='CurrentBalance' value='current_Balance'>\
+                      </div>\
+                      </div>\
+                    </div>".format(list[0],list[1],list[2],list[3],list[4]))
+else:
+     my_logger.debug('---Fetched account details Failed')
+     print ("Content-Type: text/html\r\n")
+     print ("<h3><span style='color:red' class='glyphicon glyphicon-thumbs-down'> Problem OCcured while fecthing Account Detail  </span></h3>\
+          <p style='color:red'>Internal problem occured<p>")

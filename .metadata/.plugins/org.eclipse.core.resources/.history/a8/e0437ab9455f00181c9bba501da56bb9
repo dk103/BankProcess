@@ -1,0 +1,20 @@
+
+
+
+class config_meta:
+    LOG_FILENAME = 'example.log'
+    Session_userName = None
+    Session_userAccountId= None
+    errorPage = "Error2.html"
+    
+    def update_error_page_template(content):
+       str=""
+       fileObject = open(config_meta.errorPage, "r+")
+       with open(config_meta.errorPage, 'r+') as content_file:
+           str = content_file.read()
+      # str=fileObject.read()
+      # str=str.replace(content, "{TDATA}")
+       str = str.replace("{TDATA}",content )
+       print(str)
+       fileObject.write(str)
+       fileObject.close()

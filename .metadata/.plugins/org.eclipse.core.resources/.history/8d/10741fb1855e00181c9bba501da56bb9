@@ -1,0 +1,41 @@
+
+from Classes.transaction_dao import transaction_dao_access
+import logging
+from Classes.config_util import config_meta
+from models import transaction
+
+logging.basicConfig(filename=config_meta.LOG_FILENAME, level=logging.DEBUG)
+my_logger = logging.getLogger("payee_service")
+
+
+class transaction_service:
+      
+      def __init__(self):
+         self.transaction_dao_access = transaction_dao_access()
+        
+      def deposit_transaction(self,transaction):
+         my_logger.info('--- inside deposit transaction  service---')
+         self.transaction_dao_access.connectToDb()
+         res = self.transaction_dao_access.beneficiariesAccountInclusion(payee)
+         if (res != None):
+                return res
+         return None
+     
+      def fundTransfer_transaction(self,transaction):
+         my_logger.info('--- inside fund transfer transaction  service---')
+         self.transaction_dao_access.connectToDb()
+         res = self.transaction_dao_access.beneficiariesAccountInclusion(payee)
+         if (res != None):
+                return res
+         return None
+         
+     
+     
+      def get_all_transaction_service(self,user_id):
+          
+         my_logger.info('--- inside get all transaction info service---')
+         self.transaction_dao_access.connectToDb()
+         res = self.transaction_dao_access.beneficiariesAccountRemoval(payee)
+         return res
+       
+

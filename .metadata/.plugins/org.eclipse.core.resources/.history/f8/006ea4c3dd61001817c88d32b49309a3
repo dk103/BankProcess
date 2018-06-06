@@ -1,0 +1,148 @@
+import pymysql
+from Classes.config_util import  config_meta
+import time
+import random
+import logging
+from Classes.connectionDetails import connection_Details
+from models import beneficiaries_details
+
+logging.basicConfig(filename=config_meta.LOG_FILENAME, level=logging.DEBUG)
+my_logger = logging.getLogger("payee__Dao")
+
+class payee_dao_access(object):
+
+ 
+  database_connection = None
+  dbcursor = None 
+    
+  def connectToDb(self):
+    try:
+       payee_dao_access.database_connection = pymysql.connect(host = '127.0.0.1',port = 3306,user = connection_Details.user,passwd = connection_Details.user,db = connection_Details.databaseName)
+       #pymysql.connect(connection_Details.serverName, connection_Details.user, connection_Details.dbPassword, connection_Details.databaseName)
+       my_logger.info("Connection Established")
+       payee_dao_access.dbcursor = payee_dao_access.database_connection.cursor()
+    except Exception as e:
+      pass
+      my_logger.info("Connection Declined")
+      my_logger.error ("Connection Error ->", exc_info=True)
+   # sys.exit()
+
+        
+  def beneficiariesAccountInclusion(self,payee):
+      msg=""
+      my_logger.info('---adding beneficiaries acount for user---')
+      if not self.checkBeneficiriesAlreadyPresent(payee.beneficiaries_account_number)==True:
+          try: 
+               sql = "INSERT INTO beneficiaries_details (beneficiaries_id,beneficiaries_account_number,beneficiaries_bank,beneficiaries_account_type,beneficiaries_account_holder,user_id) \
+                      VALUES (%d,'%s', '%s', '%s', '%s', %d)" % \
+                      (payee.beneficiaries_id,payee.beneficiaries_account_number,payee.beneficiaries_bank,payee.beneficiaries_account_type,payee.beneficiaries_account_holder,int(payee.user_id))
+               my_logger.info(sql)
+               payee_dao_access.dbcursor.execute(sql)
+               payee_dao_access.database_connection.commit()
+               my_logger.info(self)
+               msg="passed"
+               return msg
+          except Exception as e:
+               my_logger.error ("db while adding payee ac Error ->", exc_info=True)
+               payee_dao_access.database_connection.rollback()
+               my_logger.exception("Unable to insert account records:-")
+               msg="500"
+          finally:
+                if(payee_dao_access.database_connection != None):
+                   payee_dao_access.database_connection.close()
+                if(payee_dao_access.dbcursor != None):
+                   payee_dao_access.dbcursor = None
+                   
+               
+      else:
+        msg= "Already Account Exists"
+      
+      return msg         
+          
+            
+  def checkBeneficiriesAlreadyPresent(self,accountNo):
+         my_logger.info('---cheking payee account existence info---')
+         try: 
+            sql = "SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='%s'" % (accountNo)
+            my_logger.info(sql)
+            payee_dao_access.dbcursor.execute(sql)
+            payee_details = self.dbcursor.fetchone()
+            if (payee_details != None):
+                count = payee_details[0]
+                my_logger.info("count of payee_details:-"+str(payee_details))
+                return True
+            
+              
+         except Exception as e:
+             print ("exception while checking beneficiaries account ->", e)          
+         #finally:
+#         if(user_details_dao.database_connection != None):
+#             user_details_dao.database_connection.close()    
+#         if(user_details_dao.dbcursor != None):
+#             dbcursor = None                
+         return False
+     
+     
+  def beneficiariesAccountRemoval(self,payee):  
+      
+       
+     msg=""
+     my_logger.info('---removing beneficiaries acount for user---')
+     if self.checkBeneficiriesAlreadyPresent(payee.beneficiaries_account_number)==True:
+         try: 
+            sql = "delete from beneficiaries_details WHERE beneficiaries_account_number='%s'" % (payee.beneficiaries_account_number)
+            my_logger.info(sql)
+            payee_dao_access.dbcursor.execute(sql)
+            payee_dao_access.database_connection.commit()
+            msg="Passed"
+            
+         except Exception as e:
+             payee_dao_access.database_connection.rollback()
+             print ("Update password failed->", e)
+             msg="500"         
+         finally:
+            if(payee_dao_access.database_connection != None):
+                payee_dao_access.database_connection.close()    
+            if(payee_dao_access.dbcursor != None):
+                payee_dao_access.dbcursor = None                
+     else:
+        msg="Account Not Exixts"
+     return msg 
+ 
+ 
+  def getPayeeList(self,user_id): 
+      msg=""
+      payeeList=[]
+      my_logger.info('---started process payee list---')
+      
+      try: 
+            sql = "select beneficiaries_account_holder,beneficiaries_account_number,beneficiaries_account_type,beneficiaries_bank from beneficiaries_details where user_id =%d" % (int(user_id))
+            my_logger.info(sql)
+            payee_dao_access.dbcursor.execute(sql)
+            results = self.dbcursor.fetchall()
+            if(results!=None):
+                for row in results:
+                    if (row != None):
+                       beneficiaries_account_holder = row[0]
+                       beneficiaries_account_number = row[1]
+                       beneficiaries_account_type =row[2]
+                       beneficiaries_bank = row[3]
+                       msg = beneficiaries_account_holder +"@"+ beneficiaries_account_number+"@"+ beneficiaries_account_type+"@"+beneficiaries_bank
+                       payeeList.append( msg )
+                       msg=""
+                                
+            
+            
+      except Exception as e:
+         payee_dao_access.database_connection.rollback()
+         print ("Payee List Retrieval issue", e)
+         payeeList=None         
+      finally:
+            if(payee_dao_access.database_connection != None):
+                payee_dao_access.database_connection.close()    
+            if(payee_dao_access.dbcursor != None):
+                payee_dao_access.dbcursor = None                   
+      return payeeList
+      
+      
+          

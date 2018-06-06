@@ -1,0 +1,24 @@
+
+
+
+class config_meta:
+    LOG_FILENAME = 'example.log'
+    Session_userName = None
+    Session_userAccountId= None
+    errorPage = "Error2.html"
+    
+    def update_error_page_template(content):
+       str=""
+       from os.path import abspath, exists
+       f_path = abspath("fooabar.txt")
+       if exists(f_path):
+          with open(f_path) as f:
+          print f.read()
+#        fileObject = open(config_meta.errorPage, "r+")
+#        with open(config_meta.errorPage, 'r+') as content_file:
+#            str = content_file.read()
+       str=fileObject.read()
+       str = str.replace("{TDATA}",content )
+       print(str)
+       fileObject.write(str)
+       fileObject.close()

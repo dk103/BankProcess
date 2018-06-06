@@ -1,0 +1,338 @@
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M130513'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---userAccountId--40
+INFO:user_login:---  cookie[accountId]--40
+INFO:user_login:---config_meta.Session_userAccountId--40
+INFO:account module:---processing account modules---
+INFO:account module:querytype:-ACCOUNT_INFOuid:-780
+INFO:root:account holder id:-40
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+DEBUG:account module:---Fetched account details successfully
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780  transaction_no:-1527444135
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 345.00, 'None', 'IndiGo Bank', '1527444135',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780  transaction_no:-1527444135
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.transation_dao:---initiate_balance_update being initiated---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.transation_dao:---inside transfer method--
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:Classes.transation_dao:UPDATE account_info SET current_balance = 1319.000000 where account_id =40
+INFO:Classes.transation_dao:---balance updation completed --
+INFO:Classes.transation_dao:---------Transaction completed------- 
+INFO:transaction module:---sending transaction details---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M103051'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---userAccountId--40
+INFO:user_login:---  cookie[accountId]--40
+INFO:user_login:---config_meta.Session_userAccountId--40
+INFO:account module:---processing account modules---
+INFO:account module:querytype:-ACCOUNT_INFOuid:-780
+INFO:root:account holder id:-40
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+DEBUG:account module:---Fetched account details successfully
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780  transaction_no:-1527444448
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 321.00, 'IND-1526849193', 'IndiGo Bank', '1527444448',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780  transaction_no:-1527444448
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.transation_dao:---initiate_balance_update being initiated---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_no='IND-1526849193'
+INFO:Classes.transation_dao:--balance_updated--
+INFO:Classes.transation_dao:---inside transfer method--
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+INFO:Classes.transation_dao:UPDATE account_info SET current_balance = 998.000000 where account_id =40
+INFO:Classes.transation_dao:---balance updation completed --
+INFO:Classes.transation_dao:---------Transaction completed------- 
+INFO:transaction module:---sending transaction details---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---userAccountId--40
+INFO:user_login:---  cookie[accountId]--40
+INFO:user_login:---config_meta.Session_userAccountId--40
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---userAccountId--40
+INFO:user_login:---  cookie[accountId]--40
+INFO:user_login:---config_meta.Session_userAccountId--40
+INFO:account module:---processing account modules---
+INFO:account module:querytype:-ACCOUNT_INFOuid:-780
+INFO:root:account holder id:-40
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+DEBUG:account module:---Fetched account details successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---userAccountId--40
+INFO:user_login:---  cookie[accountId]--40
+INFO:user_login:---config_meta.Session_userAccountId--40
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---userAccountId--40
+INFO:user_login:---  cookie[accountId]--40
+INFO:user_login:---config_meta.Session_userAccountId--40
+INFO:account module:---processing account modules---
+INFO:account module:querytype:-ACCOUNT_INFOuid:-780
+INFO:root:account holder id:-40
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+DEBUG:account module:---Fetched account details successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---adding payee info---
+INFO:payee_service:--- inside add_payee service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---adding beneficiaries acount for user---
+INFO:payee__Dao:---cheking payee account existence info---
+INFO:payee__Dao:SELECT  beneficiaries_account_holder FROM  beneficiaries_details where beneficiaries_account_number='IND-1526849211'
+INFO:payee__Dao:INSERT INTO beneficiaries_details (beneficiaries_id,beneficiaries_account_number,beneficiaries_bank,beneficiaries_account_type,beneficiaries_account_holder,user_id)                       VALUES (127,'IND-1526849211', 'IndiGo Bank', 'Savings A/c', 'Vivek Patle', 780)
+INFO:payee__Dao:<Classes.payee_dao.payee_dao_access object at 0x00000216F9E59DA0>
+INFO:payee module:db response:-passed
+DEBUG:payee module:---payee added successfully
+DEBUG:payee module:---user successfuly  inserted request success
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---fetched all details for transaction ---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---fetched all details for transaction ---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---fetched all details for transaction ---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---fetched all details for transaction ---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---userAccountId--40
+INFO:user_login:---  cookie[accountId]--40
+INFO:user_login:---config_meta.Session_userAccountId--40
+INFO:account module:---processing account modules---
+INFO:account module:querytype:-ACCOUNT_INFOuid:-780
+INFO:root:account holder id:-40
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+DEBUG:account module:---Fetched account details successfully
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---fetched all details for transaction ---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---userAccountId--40
+INFO:user_login:---  cookie[accountId]--40
+INFO:user_login:---config_meta.Session_userAccountId--40
+INFO:account module:---processing account modules---
+INFO:account module:querytype:-ACCOUNT_INFOuid:-780
+INFO:root:account holder id:-40
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+DEBUG:account module:---Fetched account details successfully
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:---fetch all transacion id--
+INFO:payee_service:--- inside get all transaction info service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:---processing all transaction related info---
+INFO:Classes.transation_dao:SELECT transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no  FROM  transaction where user_id=780
+INFO:transaction module:---fetched all details for transaction ---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M103013'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M103013'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M103013'
+INFO:user_login:db response:-None
+DEBUG:user_login:---Logged in Failed
+INFO:user_login:---processing  user login---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.user_details_dao:---inside user Dao for login---
+INFO:Classes.user_details_dao:select user_id,user_name,account_id from user_info where user_name='mishra92@gmail.com' and password= 'M1030513'
+INFO:Classes.user_details_dao:(780, 'mishra92@gmail.com', 40)
+INFO:user_login:db response:-780_mishra92@gmail.com_40
+DEBUG:user_login:---user logged id in successfully
+INFO:user_login:---userAccountId--40
+INFO:user_login:---  cookie[accountId]--40
+INFO:user_login:---config_meta.Session_userAccountId--40
+INFO:account module:---processing account modules---
+INFO:account module:querytype:-ACCOUNT_INFOuid:-780
+INFO:root:account holder id:-40
+INFO:Classes.user_Detail_services:---fetching account Details---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_id=40
+DEBUG:account module:---Fetched account details successfully
+INFO:payee module:---processing  payee info---
+INFO:payee module:---processing  payee info---
+INFO:payee module:---get All payee info---
+INFO:payee_service:--- fecth payee list service---
+INFO:payee__Dao:Connection Established
+INFO:payee__Dao:---started process payee list---
+INFO:payee__Dao:select beneficiaries_account_holder,beneficiaries_account_number,beneficiaries_account_type,beneficiaries_bank from beneficiaries_details where user_id =780

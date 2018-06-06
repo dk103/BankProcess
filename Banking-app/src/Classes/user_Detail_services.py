@@ -1,0 +1,44 @@
+
+from Classes.user_details_dao import user_details_dao
+import logging
+from Classes.config_util import config_meta
+
+
+logging.basicConfig(filename=config_meta.LOG_FILENAME, level=logging.DEBUG)
+my_logger = logging.getLogger(__name__)
+
+class user_Details_services:
+
+#   def logging_Init(self,my_logger=None):
+#     self.my_logger = logging.getLogger(__name__)
+  
+  def __init__(self, user_detail_dao=None):
+     self.user_detail_dao = user_details_dao()
+  
+  def login_details_Validation(self, username,password):
+     self.user_detail_dao.connectToDb()
+     res = self.user_detail_dao.exec_Query_login_validation(username,password)
+     if (res != None):
+            return res
+     return None
+ 
+   
+  def password_change_proc(self, username,password):
+     my_logger.info('--- password change service---')
+     self.user_detail_dao.connectToDb()
+     res = self.user_detail_dao.password_change_dao(username,password)
+     return res
+
+  def user_registration(self, user):
+     #self.logging_Init()
+     my_logger.info('---inside user services for registration---')
+     self.user_detail_dao.connectToDb()
+     res = self.user_detail_dao.exec_user_register(user)
+     return res   
+
+
+  def showAccountDetails(self,accountId):
+     my_logger.info('---fetching account Details---')
+     self.user_detail_dao.connectToDb()
+     res = self.user_detail_dao.getAccountFullInfo(accountId)
+     return res      

@@ -1,0 +1,20 @@
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:inside deposit
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780  transaction_no:-1527399759
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+ERROR:Classes.transation_dao:Unable to insert records:-
+Traceback (most recent call last):
+  File "D:\PythonProc\Banking-app\src\Classes\transation_dao.py", line 41, in do_transaction_update
+    VALUES ('%s', %.2f, '%s', '%s', '%s',%d)" % (transaction.transaction_type,transaction.amount,transaction.recipient_account_number,transaction.recipient_account_bank,transaction.transaction_no,transaction.user_id)
+TypeError: must be real number, not str
+INFO:transaction module:---transaction Failed---

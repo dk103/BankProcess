@@ -1,0 +1,54 @@
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:inside deposit
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:---fund transfer related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780  transaction_no:-1527418215
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction(transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('FUND TRANSFER', 1000.00, 'None', 'IndiGoBank', '1527418215',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780  transaction_no:-1527418215
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.transation_dao:---initiate_balance_update being initiated---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.transation_dao:---balance updation completed --
+INFO:Classes.transation_dao:---------Transaction completed------- 
+INFO:transaction module:---sending transaction details---
+INFO:transaction module:---processing  transaction related  queries---
+INFO:transaction module:---uids---780
+INFO:transaction module:config_meta.Session_userAccountId-40
+INFO:transaction module:---session id-780
+INFO:transaction module:inside deposit
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.add_account_dao:Connection Established
+INFO:Classes.add_account_dao:---fecthing account no on basis of account---
+INFO:transaction module:DEPOSIT IND-1526849561 self
+INFO:transaction module:---deposit related queries in process id--
+INFO:payee_service:--- inside  transaction  service---
+INFO:Classes.transation_dao:Connection Established
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780  transaction_no:-1527418257
+INFO:Classes.transation_dao:---deposit transaction is being initiated---
+INFO:Classes.transation_dao:INSERT INTO transaction (transaction_type,amount,recipient_account_number,recipient_account_bank,transaction_no,user_id)                            VALUES ('DEPOSIT', 470.00, 'IND-1526849561', 'self', '1527418257',780)
+INFO:Classes.transation_dao:transaction_id :-None  user_id:-780  transaction_no:-1527418257
+INFO:Classes.transation_dao:Transaction details inserted
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:Classes.transation_dao:---initiate_balance_update being initiated---
+INFO:Classes.add_account_dao:---fecting account  info---
+INFO:Classes.add_account_dao:SELECT account_no,current_balance,bank_name,bank_branch,account_type from  account_info where account_no='IND-1526849561'
+INFO:Classes.transation_dao:--balance_updated--
+INFO:Classes.transation_dao:---balance updation completed --
+INFO:Classes.transation_dao:---------Transaction completed------- 
+INFO:transaction module:---sending transaction details---
