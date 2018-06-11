@@ -25,22 +25,19 @@ my_logger = logging.getLogger('user_Password Change')
 my_logger.info('---processing  user password change---')
 #user = models.user("abc@zy.com", "sam", "trik", "11-july-1992", "12345", "M103456", "1111123", "M")
 user_Details_services = user_Details_services()
-#res = user_Details_services.login_details_Validation('mishra91@gmail.com','M1030513')
+#res = user_Details_services.password_change_proc('vasumaj13@yahoo.com','M1040123')
 
 res = user_Details_services.password_change_proc(userName,password)
 my_logger.info("db response:-"+str(res))
 if(res == "Passed"):
   my_logger.info('---user password updated successfully')
 
-  
-#  sessionID = hash.hexdigest()[:10]
 
   print ("Content-Type: text/html\r\n")
   print ("<h3><span style='color:green' class='glyphicon glyphicon-thumbs-up'></span> Password updated  Successfully..</h3><br>")
 
   
- # print ("<h3><span style='color:green' class='glyphicon glyphicon-thumbs-up'></span> Registered Successfully..<a href='./index.html'><span style='color:yellow'> plz Login </span></a></h3><br>")
-
+ 
 elif(res=="500"):
   my_logger.info('---Password updation  Failed')
   print ("Content-Type: text/html\r\n")

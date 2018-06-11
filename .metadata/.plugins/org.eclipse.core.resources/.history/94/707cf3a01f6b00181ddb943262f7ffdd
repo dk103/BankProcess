@@ -1,0 +1,222 @@
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (18,'IND-1528459085', 3372.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000002EEAE2066D8>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='diveysBaku@gmail.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('869','diveysBaku@gmail.com', 'Diyesh', 'Baku', '2018-06-11', 'Global Village, RVCE Post, Mysore Road','M1030456','560059','male',18 )
+INFO:Classes.user_details_dao:user_name :-diveysBaku@gmail.com  user_id:-869
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (3,'IND-1528459342', 3888.00, 'IndiGo Bank', 'whitefiled', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x00000229B8A466D8>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='veysBaku@gmail.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('809','veysBaku@gmail.com', 'yesh', 'Baku', '2018-06-11', 'Global Village, RVCE Post, Mysore Road','M1030457','560059','male',3 )
+INFO:Classes.user_details_dao:user_name :-veysBaku@gmail.com  user_id:-809
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (32,'IND-1528459560', 3414.00, 'IndiGo Bank', 'whitefiled', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000001E9930866D8>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='Sujitanand@gmail.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('684','Sujitanand@gmail.com', 'sujit', 'Anand', '2018-06-23', 'Global Village, RVCE Post, Mysore Road','M1030890','560059','male',32 )
+INFO:Classes.user_details_dao:user_name :-Sujitanand@gmail.com  user_id:-684
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (69,'IND-1528460031', 5917.00, 'IndiGo Bank', 'Marathalli', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x0000019E856B66D8>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='vijayKumar@gmail.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('847','vijayKumar@gmail.com', 'vijay', 'Kumar', '2018-06-20', 'Global Village, RVCE Post, Mysore Road','M1030123','560059','male',69 )
+INFO:Classes.user_details_dao:user_name :-vijayKumar@gmail.com  user_id:-847
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (91,'IND-1528460469', 5578.00, 'IndiGo Bank', 'Marathalli', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x00000246A09566D8>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='vasumaj13@yahoo.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('346','vasumaj13@yahoo.com', 'Vasu', 'Maha', '2018-06-20', 'Global Village, RVCE Post, Mysore Road','M1040123','560059','male',91 )
+INFO:Classes.user_details_dao:user_name :-vasumaj13@yahoo.com  user_id:-346
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (44,'IND-1528460549', 7433.00, 'IndiGo Bank', 'Marathalli', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000001DB99566710>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='vasumadfj13@yahoo.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('779','vasumadfj13@yahoo.com', 'Vasuer', 'Mahadd', '2018-06-20', 'Global Village, RVCE Post, Mysore Road','M1040127','560059','male',44 )
+INFO:Classes.user_details_dao:user_name :-vasumadfj13@yahoo.com  user_id:-779
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (38,'IND-1528460651', 6898.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x00000237A1596710>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='madfj13@yahoo.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('707','madfj13@yahoo.com', 'asuer', 'ahadd', '2018-06-20', 'Global Village, RVCE Post, Mysore Road','M1040129','560059','male',38 )
+INFO:Classes.user_details_dao:user_name :-madfj13@yahoo.com  user_id:-707
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (75,'IND-1528460805', 3856.00, 'IndiGo Bank', 'whitefiled', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x0000023C09726710>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='msssdfj13@yahoo.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('883','msssdfj13@yahoo.com', 'asuss', 'ahaddss', '2018-06-20', 'Global Village, RVCE Post, Mysore Road','M1040129','560059','male',75 )
+INFO:Classes.user_details_dao:user_name :-msssdfj13@yahoo.com  user_id:-883
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (53,'IND-1528461745', 3493.00, 'IndiGo Bank', 'Marathalli', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x0000019C0B1A66D8>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='ddmidsdk@gmail.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('526','ddmidsdk@gmail.com', 'bhana', 'vddnd', '2018-06-05', 'Global Village, RVCE Post, Mysore Road','M1030789','560059','male',53 )
+INFO:Classes.user_details_dao:user_name :-ddmidsdk@gmail.com  user_id:-526
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (56,'IND-1528463616', 7325.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x0000017BF77166D8>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='ms221@gmai.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('482','ms221@gmai.com', 'viks', 'sdssd', '2018-06-04', '63/15 Dumdum Road','M1030891','700074','male',56 )
+INFO:Classes.user_details_dao:user_name :-ms221@gmai.com  user_id:-482
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (81,'IND-1528463765', 5529.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x0000025C540C6668>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='ms221@gmai.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('717','ms221@gmai.com', 'viks', 'sdssd', '2018-06-04', '63/15 Dumdum Road','M1030891','700074','male',81 )
+INFO:Classes.user_details_dao:user_name :-ms221@gmai.com  user_id:-717
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (60,'IND-1528463809', 3821.00, 'IndiGo Bank', 'whitefiled', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000001339E126630>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='mahwSams@gmail.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('573','mahwSams@gmail.com', 'samsher', 'mohsmmed', '2018-06-06', '63/15 Dumdum Road','M1020900','700074','male',60 )
+INFO:Classes.user_details_dao:user_name :-mahwSams@gmail.com  user_id:-573
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (62,'IND-1528463876', 2150.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x00000232800C66D8>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='mahwSams@gmail.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('358','mahwSams@gmail.com', 'samsher', 'mohsmmed', '2018-06-06', '63/15 Dumdum Road','M1020900','700074','male',62 )
+INFO:Classes.user_details_dao:user_name :-mahwSams@gmail.com  user_id:-358
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---user successfully  inserted request success
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (6,'IND-1528463953', 7051.00, 'IndiGo Bank', 'whitefiled', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x000001ADAE8C66A0>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='mahwSams@gmail.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('527','mahwSams@gmail.com', 'samsher', 'mohsmmed', '2018-06-06', '63/15 Dumdum Road','M1020900','700074','male',6 )
+INFO:Classes.user_details_dao:user_name :-mahwSams@gmail.com  user_id:-527
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---Registration of user failed
+DEBUG:__main__:---user value request success
+INFO:Classes.user_Detail_services:---inside user services for registration---
+INFO:Classes.user_details_dao:Connection Established
+INFO:Classes.add_account_dao:---initializing Account info for user---
+INFO:models.account_info_model:---initializing Account info for user---
+INFO:Classes.add_account_dao:---adding Account info for user---
+INFO:Classes.add_account_dao:INSERT INTO account_info(account_id,account_no,current_balance,bank_name,bank_branch,account_type)                   VALUES (61,'IND-1528464345', 6460.00, 'IndiGo Bank', 'R.R.Nagr', 'Savings')
+INFO:Classes.add_account_dao:<Classes.add_account_dao.account_dao object at 0x00000260177B66A0>
+INFO:Classes.user_details_dao:---cheking user info---
+INFO:Classes.user_details_dao:SELECT COUNT(*) AS count FROM  user_info where user_name='mahwSams@gmail.com'
+INFO:Classes.user_details_dao:---inside user Dao for registration---
+INFO:Classes.user_details_dao:INSERT INTO user_info(user_id,user_name,first_name,last_name,date_of_birth,address,password,pin_code,gender,account_id)                            VALUES ('533','mahwSams@gmail.com', 'samsher', 'mohsmmed', '2018-06-06', '63/15 Dumdum Road','M1020900','700074','male',61 )
+INFO:Classes.user_details_dao:user_name :-mahwSams@gmail.com  user_id:-533
+DEBUG:__main__:response user :-Passed
+DEBUG:__main__:---Registration of user failed

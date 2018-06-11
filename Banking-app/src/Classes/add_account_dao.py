@@ -42,7 +42,7 @@ class account_dao(object):
            self.dbCursor.execute(sql)
            self.database_connection.commit()
            my_logger.info(self)
-           return self.accountid 
+           return account_model.accountid 
       except Exception as e:
            self.database_connection.rollback()
            my_logger.exception("Unable to insert account records:-")          

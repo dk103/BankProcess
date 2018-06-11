@@ -2228,8 +2228,6 @@ user_details_dao|D:\PythonProc\Banking-app\src\Classes\user_details_dao.py
 user_forget|D:\PythonProc\Banking-app\src\user_forget.py
 user_login|D:\PythonProc\Banking-app\src\user_login.py
 user_model|D:\PythonProc\Banking-app\src\models\user_model.py
-util.register_emp|D:\PythonProc\Banking-app\src\util\register_emp.py
-util.user_login|D:\PythonProc\Banking-app\src\util\user_login.py
 uu|C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\uu.py
 uuid|C:\Users\M1030512\AppData\Local\Programs\Python\Python36\lib\uuid.py
 vcruntime140|C:\Users\M1030512\AppData\Local\Programs\Python\Python36\vcruntime140.dll

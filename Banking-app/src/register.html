@@ -47,10 +47,11 @@ var pincode;
     address =  document.getElementsByName("address")[0].value;
     pincode =  document.getElementsByName("pincode")[0].value;
       var resultValidator =true
+      var params=""
       if(validationRes()==true){
 	     document.getElementById('err').innerText="";
         var xhttp = new XMLHttpRequest();
-        var params = 'firstname='+firstname+'&amp;lastname='+lastname+'&amp;username='+username+'&amp;password='+password+'&amp;gender='+gender+
+         params = 'firstname='+firstname+'&amp;lastname='+lastname+'&amp;username='+username+'&amp;password='+password+'&amp;gender='+gender+
                      '&amp;dob='+dob+'&amp;address='+address+'&amp;pincode='+pincode
         xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {

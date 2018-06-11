@@ -7,7 +7,7 @@ import logging
 import pymysql
 from Classes.add_account_dao import account_dao
 from models import user
-
+from models import account_info
 logging.basicConfig(filename=config_meta.LOG_FILENAME, level=logging.DEBUG)
 my_logger = logging.getLogger(__name__)
 
@@ -59,7 +59,7 @@ class user_details_dao:
   
   def exec_user_register(self, user):
         accountdao = account_dao(user_details_dao.database_connection,user_details_dao.dbCursor)
-        accountInfo = accountInfo()
+        accountInfo = account_info(None,None,None,None,None)
         acountResp = accountdao.register_Account(accountInfo)
         msg=""
         if(acountResp!=-1):
@@ -126,7 +126,7 @@ class user_details_dao:
         user_details = user_details_dao.dbCursor.fetchone()
         if (user_details != None):
             count = user_details[0]
-        my_logger.info("count of user_name:-"+user_details)
+        my_logger.info("count of user_name:-"+str(count))
         if(count>0):
            return True
      except Exception as e:

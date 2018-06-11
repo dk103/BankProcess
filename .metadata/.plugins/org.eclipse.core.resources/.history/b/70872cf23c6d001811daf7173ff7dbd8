@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>INDGO BANK</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/customCSS.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="layout/bootstrap.min.css">
+
+<script type="text/javascript">
+// Add active class to the current button (highlight it)
+var registration;
+var firstname;
+var lastname;
+var username;
+var password;
+var confirmPassword;
+var gender;
+var dob;
+var address;
+var pincode;
+ 
+   
+/* window.onload = function(){  
+  var header=document.getElementById("nav-bar");
+  var listItem=header.getElementsByClassName("nav-bar-list");
+  for (var i = 0; i < listItem.length; i++) {
+    listItem[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  } */
+  
+  function checkValidation(e){
+  
+    firstname= document.getElementsByName("firstname")[0].value;
+    lastname= document.getElementsByName("lastname")[0].value;
+    username=  document.getElementsByName("userid")[0].value;
+    password = document.getElementsByName("pswrd")[0].value;
+    confirmPassword = document.getElementsByName("confirmpass")[0].value;
+    gender =  document.getElementsByName("gender")[0].value;
+    dob=  document.getElementById("dob").value;
+    address =  document.getElementsByName("address")[0].value;
+    pincode =  document.getElementsByName("pincode")[0].value;
+      var resultValidator =true
+      if(validationRes()==true){
+	     document.getElementById('err').innerText="";
+        var xhttp = new XMLHttpRequest();
+        var params = 'firstname='+firstname+'&amp;lastname='+lastname+'&amp;username='+username+'&amp;password='+password+'&amp;gender='+gender+
+                     '&amp;dob='+dob+'&amp;address='+address+'&amp;pincode='+pincode
+        xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 500) {
+             document.getElementById("succ").innerHTML = this.responseText;
+                }
+               };
+       xhttp.open("post", "register_emp.py", true);
+       xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+       xhttp.send(params);
+       }
+      e.preventDefault();
+	  } 
+   
+  function validationRes(){
+  
+   
+   var msg;
+   if (username.trim()==""||password.trim()==""||firstname.trim()==""||confirmPassword.trim()==""||lastname.trim()==""||gender.trim()==""||
+       address.trim()==""||pincode.trim()==""||dob.trim()==""){
+       msg= "Please Fill All the Details !..";
+       document.getElementById('err').innerText=msg; 
+	   return false;
+       }
+	else if(confirmPassword.trim()!= password.trim()){
+	    msg= "Password and Confirm password not Matching";
+       document.getElementById('err').innerText=msg; 
+	   return false;
+	}   
+    return true;  
+   
+   }
+  
+</script>
+
+</head>
+<body id='bg'>
+<ul id="nav-bar">
+  <li><a class="nav-bar-list " href="index.html">Login</a></li>
+  <li><a class="nav-bar-list active" href="">Register</a></li>
+  <li><a class="nav-bar-list" href="#contact">Contact</a></li>
+  <div class="nav-bar-right">
+    <a href="#forgetPassword">ForgetPassword</a>
+  </div>
+</ul>
+
+<div class='table'>
+    
+    <div class='cell'>
+	<h1 align="center" style="color:#641E16;">Please Register....</h1>
+	        <p style="color:#f442b3" id="succ"></p>
+             
+        <form name="registration" method="post" >
+		    <span style="color:red" id="err"></span><br>
+            <label>FirstName <i class="glyphicon glyphicon-user" style="font-size:24px;"></i>:</label>
+            <input type="text" name="firstname"  pattern="([a-zA-Z]{3,30}[^\s])+" title="atleast 4  character required" align="right" width="48" height="48" required />
+            <br />
+			<label>LastName <i class="glyphicon glyphicon-user" style="font-size:24px;"></i>:</label>
+            <input type="text" name="lastname"  pattern="[a-zA-Z]{3,30}" title="atleast 4 character required" align="right" width="48" height="48" required />
+            <br />
+			<label>UserName <i class="glyphicon glyphicon-link" style="font-size:24px;"></i>:</label>
+            <input type="text" name="userid" placeholder="--------email id------" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" align="right" width="48" height="48" title="xyz@something.com" required />
+            <br />
+			<label>Address <i class="glyphicon glyphicon-map-marker" style="font-size:24px;"></i>:&nbsp;</label>
+            <input type="text" name="address"  align="right" width="48" height="48" required />
+            <br />
+			<label>PinCode <i class="glyphicon glyphicon-move" style="font-size:24px;"></i>:&nbsp;</label>
+            <input type="text" name="pincode"  pattern="[1-9][0-9]{5}" align="right" width="48" height="48" title="six digit required" required />
+            <br />
+			<label for="dob">D.O.B <i class="glyphicon glyphicon-user" style="font-size:24px;"></i>:</label>
+			<input id="dob" type="date"align="right" width="48" height="48" /><br>
+			
+			<label>Gender <i class="glyphicon glyphicon-comment" style="font-size:24px;"></i>:</label>
+			 <select name="gender">
+                <option value="male">M</option>
+                <option value="female">F</option>
+              </select>
+            <br />
+		    <label>Password <i class="glyphicon glyphicon-lock" style="font-size:24px;"></i>:</label>
+            <input type="password" name="pswrd"  pattern="[M]\d{7}"  width="48" height="48" title="Starting with M followed by 7 digit" required />
+            <br />
+			<label>confirmPassword <i class="glyphicon glyphicon-info-sign" style="font-size:24px;"></i>:</label>
+            <input type="password" name="confirmpass" width="48" height="48" pattern="[M]\d{7}"  required />
+            <br /><br/>
+          
+			<button type="submit" value="Register" class="btn-submit" onclick ="checkValidation(event)" >Submit</button>
+            <button type="reset" value="cancel" class="btn-reset">Cancel</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+
